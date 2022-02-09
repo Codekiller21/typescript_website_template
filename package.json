@@ -1,0 +1,26 @@
+{
+  "name": "typescript_website_template",
+  "version": "1.0.0",
+  "description": "Boilerplate for a basic typescript webpage",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codekiller21/typescript_website_template.git"
+  },
+  "author": "Colby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codekiller21/typescript_website_template/issues"
+  },
+  "homepage": "https://github.com/Codekiller21/typescript_website_template#readme",
+  "dependencies": {
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.68.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
