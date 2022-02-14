@@ -5,12 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-msedge",
+            "type": "firefox",
             "request": "launch",
-            "name": "Launch Edge against localhost",
+            "name": "Launch and build",
             "webRoot": "${workspaceFolder}",
             "file": "${workspaceFolder}/index.html",
             "preLaunchTask": "build",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Launch",
+            "webRoot": "${workspaceFolder}",
+            "file": "${workspaceFolder}/index.html",
             "internalConsoleOptions": "openOnSessionStart"
         }
     ]
