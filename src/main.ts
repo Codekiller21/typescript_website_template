@@ -1,3 +1,1 @@
-window.onload = async () => {
-  // Start here
-};
+// Start here
