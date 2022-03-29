@@ -8,7 +8,6 @@
             "type": "firefox",
             "request": "launch",
             "name": "Launch and build",
-            "webRoot": "${workspaceFolder}",
             "file": "${workspaceFolder}/index.html",
             "preLaunchTask": "build",
             "internalConsoleOptions": "openOnSessionStart"
@@ -17,7 +16,6 @@
             "type": "firefox",
             "request": "launch",
             "name": "Launch",
-            "webRoot": "${workspaceFolder}",
             "file": "${workspaceFolder}/index.html",
             "internalConsoleOptions": "openOnSessionStart"
         }
